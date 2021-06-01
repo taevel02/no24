@@ -1,0 +1,39 @@
+a {
+  color: #000000;
+  text-decoration: none;
+}
+
+nav {
+  margin-top: 1.5rem;
+}
+
+footer {
+  margin: 2rem;
+  font-size: 14px;
+}
+
+.container {
+  margin-top: 3rem;
+}
+
+.title {
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.menu {
+  transition: color 0.3s ease-in-out;
+}
+
+.menu:hover {
+  color: #485fc7;
+}
+
+.section {
+  margin-top: 2rem;
+  width: 800px;
+}
+
+.no-padding {
+  padding: 0;
+}

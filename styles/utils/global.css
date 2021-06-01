@@ -1,0 +1,10 @@
+@import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css);
+@import url(./grid.css);
+@import url(./form.css);
+
+* {
+  background-color: #ffffff;
+  font-family: "Spoqa Han Sans Neo", "sans-serif";
+  max-width: 1200px;
+  margin: 0 auto;
+}

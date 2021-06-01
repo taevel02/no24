@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NO24 | 인터넷서점</title>
+    <link rel="stylesheet" href="./styles/utils/global.css">
+    <link rel="stylesheet" href="./styles/main.css">
+</head>
+
+<body>
+    <div class="container">
+        <header class="row between-xs middle-xs">
+            <div class="col-xs-2 start-xs">
+                <a class="title" href="./main.html">NO 24</a>
+            </div>
+            <div class="col-xs-2 end-xs">
+                <a href="./pages/signin.html" target="display_area">로그인</a>
+                <span>&nbsp;|&nbsp;</span>
+                <a href="./pages/signup.html" target="_blank">회원가입</a>
+            </div>
+        </header>
+
+        <div class="divider"></div>
+
+        <nav class="row">
+            <div class="col-xs-3 start-xs">
+                <a class="menu" href="./pages/bestseller.html" target="display_area">베스트셀러</a>
+                <span class="spacer"></span>
+                <a class="menu" href="./pages/new_books.html" target="display_area">따끈한신간</a>
+                <span class="spacer"></span>
+                <a class="menu" href="./pages/music.html" target="display_area">음반</a>
+            </div>
+            <div class="col-xs-2 end-xs">
+                <a class="menu" href="./pages/order.html" target="display_area">주문하기</a>
+            </div>
+        </nav>
+
+        <div class="divider"></div>
+
+        <div class="row section">
+            <article class="col-xs no-padding">
+                <iframe name="display_area" src="./images/library.jpg" frameborder="0" width="710px"
+                    height="600px"></iframe>
+            </article>
+
+            <aside class="col-xs-1 no-padding">
+                <button class="button is-text" onclick="alert('오늘의 책은 사피엔스 입니다!')">오늘의 책</button>
+                <button class="button is-text">마이 노24</button>
+                <button class="button is-text">최근 본 상품</button>
+                <button class="button is-text" onclick="alert('노24만의 노리커버를 만나보세요.')">단독판매</button>
+            </aside>
+        </div>
+
+        <div class="divider"></div>
+
+        <footer class="row between-xs">
+            <div class="col-xs-4 start-xs">
+                <span>Copyright &copy; 2021 Taehoon Kwon. All rights reserved</span>
+            </div>
+            <div class="col-xs-2 end-xs">
+                <a href="https://www.facebook.com/">Facebook</a>
+                &nbsp;
+                <a href="https://www.instagram.com/">Instagram</a>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>

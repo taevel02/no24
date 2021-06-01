@@ -1,0 +1,52 @@
+.content {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.content-title {
+  color: #485fc7;
+}
+
+.book-wrap {
+  display: inline-block;
+  text-align: left;
+  vertical-align: bottom;
+  width: 164px;
+  padding-top: 30px;
+  padding-left: 17px;
+  clear: both;
+}
+
+.image {
+  width: 147px;
+  margin: 0;
+  cursor: pointer;
+}
+
+.book_info {
+  margin-top: 1rem;
+}
+
+.title {
+  font-size: 13px;
+  font-weight: 700;
+  color: #333333;
+  cursor: pointer;
+  padding-bottom: 6px;
+}
+
+.author,
+.publisher {
+  font-size: 12px;
+  color: #999999;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.price {
+  font-size: 14px;
+  font-weight: 700;
+  color: #333333;
+  margin-top: 8px;
+}
