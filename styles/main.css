@@ -22,11 +22,12 @@ footer {
 }
 
 .menu {
-  transition: color 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
 .menu:hover {
   color: #485fc7;
+  font-weight: 700;
 }
 
 .section {

@@ -74,6 +74,11 @@
   color: #363636;
 }
 
+.button.is-fullwidth {
+  display: flex;
+  width: 100%;
+}
+
 .button.is-link {
   background-color: #485fc7;
   border-color: transparent;
