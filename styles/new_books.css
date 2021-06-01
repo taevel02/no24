@@ -50,3 +50,7 @@
   color: #333333;
   margin-top: 8px;
 }
+
+.no-padding {
+  padding: 0;
+}
