@@ -1,0 +1,30 @@
+.content {
+  width: 800px;
+  margin: 0 auto;
+  margin-top: 5rem;
+}
+
+.content-title {
+  text-align: center;
+  color: #485fc7;
+  margin-bottom: 5rem;
+}
+
+.field {
+  display: flex;
+  margin: 2rem;
+}
+
+.label {
+  width: 120px;
+  margin-right: 1rem;
+}
+
+.spacing {
+  margin-right: 1rem;
+}
+
+a {
+  color: #485fc7;
+  text-decoration: none;
+}

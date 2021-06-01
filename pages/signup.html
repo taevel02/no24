@@ -11,7 +11,57 @@
 </head>
 
 <body>
-
+    <div class="content">
+        <h1 class="content-title">NO24 회원가입</h1>
+        <form action>
+            <div class="field middle-xs">
+                <label class="label col-xs-2">아이디</label>
+                <input class="input spacing" type="text">
+                <button class="button is-light col-xs-2" onclick="alert('사용할 수 있는 아이디입니다.')">중복확인</button>
+            </div>
+            <div class="field middle-xs">
+                <label class="label col-xs-2">비밀번호</label>
+                <input class="input" type="password">
+            </div>
+            <div class="field middle-xs">
+                <label class="label col-xs-2">비밀번호 확인</label>
+                <input class="input" type="password">
+            </div>
+            <div class="field middle-xs">
+                <label class="label col-xs-2">이름</label>
+                <input class="input" type="text">
+            </div>
+            <div class="field middle-xs">
+                <label class="label col-xs-2">이메일</label>
+                <input class="input" type="text">&nbsp;@&nbsp;
+                <input class="input spacing" type="text">
+                <div class="select">
+                    <select>
+                        <option>직접입력</option>
+                        <option>gmail.com</option>
+                        <option>naver.com</option>
+                        <option>daum.net</option>
+                    </select>
+                </div>
+            </div>
+            <div class="field middle-xs">
+                <label class="label col-xs-2">전화번호</label>
+                <input class="input" type="tel">
+            </div>
+            <div class="field">
+                <label class="checkbox">
+                    <input type="checkbox">
+                    I agree to the <a href="#">terms and conditions</a>
+                </label>
+            </div>
+        </form>
+        <div class="row">
+            <div class="col-xs-11">
+                <button class="button is-link spacing">회원가입</button>
+                <button class="button is-link is-light">취소</button>
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>
