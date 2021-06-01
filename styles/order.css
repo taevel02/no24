@@ -1,0 +1,53 @@
+.content {
+  display: block;
+}
+
+.content-title {
+  color: #485fc7;
+  margin-bottom: 1rem;
+}
+
+.button-wrap {
+  display: flex;
+  flex-direction: row;
+  margin-top: 1rem;
+}
+
+.no-padding {
+  padding: 0;
+}
+
+.no-margin {
+  margin: 0;
+}
+
+.spacing {
+  margin-right: 1rem;
+}
+
+.stroke-line {
+  border-top: 1px solid #333333;
+}
+
+table td,
+th,
+tr {
+  text-align: center;
+  padding: 0.1em 2.1em;
+}
+
+th {
+  padding: 0.5em 2.1em;
+}
+
+input {
+  text-align: right;
+}
+
+table {
+  display: table;
+  border-collapse: collapse;
+  text-indent: initial;
+  box-sizing: border-box;
+  border-spacing: 2px;
+}

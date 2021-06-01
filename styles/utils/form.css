@@ -11,10 +11,10 @@
   height: 2.5em;
   justify-content: flex-start;
   line-height: 1.5;
-  padding-bottom: calc(0.5em - 1px);
+  padding-bottom: calc(0.5em - 3px);
   padding-left: calc(0.75em - 1px);
   padding-right: calc(0.75em - 1px);
-  padding-top: calc(0.5em - 1px);
+  padding-top: calc(0.5em - 3px);
   position: relative;
   vertical-align: top;
 }
@@ -195,11 +195,7 @@
   box-shadow: inset 0 0.0625em 0.125em rgba(10, 10, 10, 0.05);
   max-width: 100%;
   width: 100%;
-}
-
-.is-normal.input,
-.is-normal.textarea {
-  font-size: 1rem;
+  height: 1.5em;
 }
 
 .textarea {
@@ -277,30 +273,4 @@
 
 .label.is-normal {
   font-size: 1rem;
-}
-
-.field:not(:last-child) {
-  margin-bottom: 0.75rem;
-}
-
-.field.is-grouped {
-  display: flex;
-  justify-content: flex-start;
-}
-
-.field.is-grouped > .control {
-  flex-shrink: 0;
-}
-
-.field.is-grouped > .control:not(:last-child) {
-  margin-bottom: 0;
-  margin-right: 0.75rem;
-}
-
-.control {
-  box-sizing: border-box;
-  clear: both;
-  font-size: 1rem;
-  position: relative;
-  text-align: inherit;
 }
